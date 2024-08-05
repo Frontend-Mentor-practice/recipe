@@ -27,6 +27,7 @@ h4,
 h5,
 h6 {
   font-family: 'Young Serif';
+  font-weight: 400;
 }
 p {
   color: var(--clr-brand-stone-600);
@@ -61,7 +62,10 @@ ul li::marker {
 th, td {
   padding: 0.75rem 2rem;
   text-align: left;
-  border-bottom: 1px solid var(--clr-brand-stone-150);;
+  border-bottom: 1px solid var(--clr-brand-stone-150);
+}
+tr:last-child {
+  border-bottom: none;
 }
 
 /***********************************/
@@ -78,7 +82,7 @@ th, td {
   padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
-.recipe main {
+.recipe .main {
   padding: 2.5rem;
 }
 
@@ -110,7 +114,7 @@ th, td {
 
 @container recipeCard (width < 490px) {
   h1 { font-size: 2.25rem; }
-  .recipe main { padding: 2.5rem 2rem; }
+  .recipe .main { padding: 2.5rem 2rem; }
   .recipe > header { padding: 0; border-raduis: 0; }
   .recipe__img { height: auto; }
 }
