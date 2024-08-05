@@ -9,18 +9,15 @@
   <title>Frontend Mentor | Recipe page</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
-    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./styles/reset.css">
   <link rel="stylesheet" href="./styles/utility.css">
   <link rel="stylesheet" href="./styles/main.css">
 </head>
-
 <body>
 
-  <article class="flex-column [ recipe ]">
-    
-    <header role="banner">
+  <main class="flex-column [ recipe ]">
+    <header>
       <figure>
         <img
           src="./assets/images/image-omelette.jpeg"
@@ -30,8 +27,7 @@
         >
       </figure>
     </header>
-
-    <section class="flex-column gap-32 [ main ]">
+    <section class="flex-column gap-32 [ content ]">
       <header class="flex-column gap-24">
         <h1>Simple Omelette Recipe</h1>
         <p>
@@ -39,7 +35,6 @@
           to perfection, optionally filled with your choice of cheese, vegetables, or meats.
         </p>
       </header>
-
       <article class="flex-column gap-16 [ prep ]">
         <h2 class="font-primary fs-20 bold clr-txt-rose-800">Preparation time</h2>
         <ul class="flex-column gap-8">
@@ -48,7 +43,6 @@
           <li><p><em class="bold clr-stone-600 nomal">Cooking</em>: 5 minutes</p></li>
         </ul>
       </article>
-
       <section class="flex-column gap-24 [ ingredients ]">
         <h2>Ingredients</h2>
         <ul class="flex-column gap-8">
@@ -69,12 +63,9 @@
           </li>
         </ul>
       </section>
-
       <hr>
-
       <section class="flex-column gap-24 [ instructions ]">
         <h2>Instructions</h2>
-
         <ol class="flex-column gap-8">
           <li>
             <p><em class="bold normal clr-stone-600">Beat the eggs</em>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
@@ -99,16 +90,11 @@
             <p><em class="bold normal clr-stone-600">Enjoy</em>: Serve hot, with additional salt and pepper if needed.</p>
           </li>
         </ol>
-
       </section>
-
       <hr>
-
       <section class="flex-column gap-24">
         <h2>Nutrition</h2>
-
         <p>The table below shows nutritional values per serving without the additional fillings.</p>
-
         <table>
           <tr>
             <th class="clr-stone-600 fw-500">Calories</th>
@@ -128,11 +114,8 @@
           </tr>
         </table>
       </section>
-
     </section>
-
-  </article>
+  </main>
 
 </body>
-
 </html>

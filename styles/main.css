@@ -54,19 +54,28 @@ ol {
 }
 ul li,
 ol li {
-  padding-left: 1.25rem;
+  padding-left: 1rem;
 }
 ul li::marker {
   font-size: 0.75rem;
 }
-th, td {
+/* th, td {
+  
+} */
+
+table :is(th, td, tr) {
   padding: 0.75rem 2rem;
   text-align: left;
   border-bottom: 1px solid var(--clr-brand-stone-150);
 }
-tr:last-child {
-  border-bottom: none;
+table tr:first-child > * {
+  padding-top: 0;
 }
+table tr:last-child > * {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
 
 /***********************************/
 
@@ -82,7 +91,7 @@ tr:last-child {
   padding: 2.5rem 2.5rem 0 2.5rem;
 }
 
-.recipe .main {
+.recipe .content {
   padding: 2.5rem;
 }
 
@@ -114,7 +123,7 @@ tr:last-child {
 
 @container recipeCard (width < 490px) {
   h1 { font-size: 2.25rem; }
-  .recipe .main { padding: 2.5rem 2rem; }
-  .recipe > header { padding: 0; border-raduis: 0; }
-  .recipe__img { height: auto; }
+  .recipe .content { padding: 2.5rem 2rem; }
+  .recipe > header { padding: 0; }
+  .recipe__img { height: auto; border-radius: 0; }
 }
