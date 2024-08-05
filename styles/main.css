@@ -18,6 +18,7 @@ body {
   justify-content: center;
   align-items: center;
   overflow-y: auto;
+  padding-block: 8rem;
 }
 h1,
 h2,
