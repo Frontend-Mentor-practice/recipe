@@ -1,0 +1,101 @@
+:root {
+  --clr-brand-white: hsl(0, 0%, 100%);
+  --clr-brand-stone-100: hsl(30, 54%, 90%);
+  --clr-brand-stone-150: hsl(30, 18%, 87%);
+  --clr-brand-stone-600: hsl(30, 10%, 34%);
+  --clr-brand-stone-900: hsl(24, 5%, 18%);
+  --clr-brand-brown-800: hsl(14, 45%, 36%);
+  --clr-brand-rose-800: hsl(332, 51%, 32%);
+  --clr-brand-rose-50: hsl(330, 100%, 98%);
+  --clr-brand-heading-1: hsl(24, 5%, 18%);
+  --sdf: hsl(30, 18%, 87%);
+}
+
+body {
+  font-family: 'Outfit';
+  background-color: var(--clr-brand-stone-100);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  overflow-y: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Young Serif';
+}
+p {
+  color: var(--clr-brand-stone-600);
+  line-height: 150%;
+}
+h1 {
+  font-size: 40px;
+  line-height: 100%;
+  color: var(--clr-brand-heading-1);
+}
+h2 {
+  font-size: 28px;
+  line-height: 100%;
+  color: var(--clr-brand-brown-800);
+}
+hr {
+  border: none;
+  height: 1px;
+  background-color: var(--clr-brand-stone-150);
+}
+
+/***********************************/
+
+.recipe {
+  background-color: var(--clr-brand-white);
+  max-width: 736px;
+  padding: 2.5rem;
+  border-radius: 24px;
+  gap: 2.5rem;
+}
+.recipe__img {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
+}
+.prep {
+  background-color: var(--clr-brand-rose-50);
+  padding: 1.5rem;
+  border-radius: 20px;
+}
+
+ul,
+ol {
+  padding-inline-start: 1.5rem;
+}
+ul li,
+ol li {
+  padding-left: 1.25rem;
+}
+ul li::marker {
+  font-size: 0.75rem;
+}
+
+.prep li::marker {
+  color: var(--clr-brand-rose-800);
+}
+
+.ingredients li::marker,
+.instructions li::marker {
+  color: var(--clr-brand-brown-800);
+}
+
+.instructions li::marker {
+  font-weight: bold;
+}
+
+th, td {
+  padding: 0.75rem 2rem;
+  text-align: left;
+  border-bottom: 1px solid var(--clr-brand-stone-150);;
+}

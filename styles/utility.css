@@ -1,0 +1,89 @@
+
+/* FLEXBOX */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-8 {
+  gap: 0.5rem;
+}
+
+.gap-16 {
+  gap: 1rem;
+}
+
+.gap-24 {
+  gap: 1.5rem;
+}
+
+.gap-32 {
+  gap: 2rem;
+}
+
+.p-none {
+  padding: 0;
+}
+
+
+/* FONT WEIGHT */
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.normal {
+  font-style: normal;
+}
+
+.font-primary {
+  font-family: 'Outfit';
+}
+
+.fs-14 {
+  font-size: 0.875rem;
+}
+
+.fs-20 {
+  font-size: 1.25rem;
+}
+
+.fs-24 {
+  font-size: 1.5rem;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.nomal {
+  font-style: normal;
+}
+
+.clr-txt-rose-800 {
+  color: var(--clr-brand-rose-800);
+}
+
+.clr-stone-600 {
+  color: var(--clr-brand-stone-600);
+}
+
+.clr-brown-800 {
+  color: var(--clr-brand-brown-800);
+}

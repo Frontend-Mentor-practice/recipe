@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <title>Frontend Mentor | Recipe page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&family=Young+Serif&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/styles/reset.css">
+  <link rel="stylesheet" href="/styles/utility.css">
+  <link rel="stylesheet" href="/styles/main.css">
+</head>
+
+<body>
+
+  <article class="flex-column [ recipe ]">
+    <header>
+      <figure>
+        <img
+          src="./assets/images/image-omelette.jpeg"
+          alt="Egg Omelette"
+          loading="lazy"
+          class="[ recipe__img ]"
+        >
+      </figure>
+    </header>
+
+    <main role="main" class="flex-column gap-32">
+      <header class="flex-column gap-24">
+        <h1>Simple Omelette Recipe</h1>
+        <p>
+          An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked
+          to perfection, optionally filled with your choice of cheese, vegetables, or meats.
+        </p>
+      </header>
+
+      <article class="flex-column gap-16 [ prep ]">
+        <h2 class="font-primary fs-20 bold clr-txt-rose-800">Preparation time</h2>
+        <ul class="flex-column gap-8">
+          <li><p><em class="bold clr-stone-600 nomal">Total</em>: Approximately 10 minutes</p></li>
+          <li><p><em class="bold clr-stone-600 nomal">Preparation</em>: 5 minutes</p></li>
+          <li><p><em class="bold clr-stone-600 nomal">Cooking</em>: 5 minutes</p></li>
+        </ul>
+      </article>
+
+      <section class="flex-column gap-24 [ ingredients ]">
+        <h2>Ingredients</h2>
+        <ul class="flex-column gap-8">
+          <li>
+            <p>2-3 large eggs</p>
+          </li>
+          <li>
+            <p>Salt, to taste</p>
+          </li>
+          <li>
+            <p>Pepper, to taste</p>
+          </li>
+          <li>
+            <p>1 tablespoon of butter or oil</p>
+          </li>
+          <li>
+            <p>Optional fillings: cheese, diced vegetables, cooked meats, herbs</p>
+          </li>
+        </ul>
+      </section>
+
+      <hr>
+
+      <section class="flex-column gap-24 [ instructions ]">
+        <h2>Instructions</h2>
+
+        <ol class="flex-column gap-8">
+          <li>
+            <p><em class="bold normal clr-stone-600">Beat the eggs</em>: In a bowl, beat the eggs with a pinch of salt and pepper until they are well mixed.
+              You can add a tablespoon of water or milk for a fluffier texture.</p>
+          </li>
+          <li>
+            <p><em class="bold normal clr-stone-600">Heat the pan</em>: Place a non-stick frying pan over medium heat and add butter or oil.</p>
+          </li>
+          <li>
+            <p><em class="bold normal clr-stone-600">Cook the omelette</em>: Once the butter is melted and bubbling, pour in the eggs. Tilt the pan to ensure
+              the eggs evenly coat the surface.</p>
+          </li>
+          <li>
+            <p><em class="bold normal clr-stone-600">Add fillings (optional)</em>: When the eggs begin to set at the edges but are still slightly runny in the
+              middle, sprinkle your chosen fillings over one half of the omelette.</p>
+          </li>
+          <li>
+            <p><em class="bold normal clr-stone-600">Fold and serve</em>: As the omelette continues to cook, carefully lift one edge and fold it over the
+              fillings. Let it cook for another minute, then slide it onto a plate.</p>
+          </li>
+          <li>
+            <p><em class="bold normal clr-stone-600">Enjoy</em>: Serve hot, with additional salt and pepper if needed.</p>
+          </li>
+        </ol>
+
+      </section>
+
+      <hr>
+
+      <section class="flex-column gap-24">
+        <h2>Nutrition</h2>
+
+        <p>The table below shows nutritional values per serving without the additional fillings.</p>
+
+        <table>
+          <tr>
+            <th class="clr-stone-600 fw-500">Calories</th>
+            <td class="bold normal clr-brown-800">277kcal</td>
+          </tr>
+          <tr>
+            <th class="clr-stone-600 fw-500">Carbs</th>
+            <td class="bold normal clr-brown-800">0g</td>
+          </tr>
+          <tr>
+            <th class="clr-stone-600 fw-500">Protein</th>
+            <td class="bold normal clr-brown-800">20g</td>
+          </tr>
+          <tr>
+            <th class="clr-stone-600 fw-500">Fat</th>
+            <td class="bold normal clr-brown-800">22g</td>
+          </tr>
+        </table>
+      </section>
+
+    </main>
+
+  </article>
+
+</body>
+
+</html>
